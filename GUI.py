@@ -5,12 +5,20 @@ import cv2
 
 
 
+# def setBackgroundIMG(root, imgPath):
+#     # Set the background image
+#     bg_image = tk.PhotoImage(file="C:\\Users\\apoor\\Downloads\\background_1.gif")
+#     bg_label = tk.Label(root, image=bg_image)
+#     bg_label.place(relx=0.5, rely=0.5, anchor="center")
+    # bg_label.image = bg_image
+
 def setBackgroundIMG(root, imgPath):
     # Set the background image
-    bg_image = tk.PhotoImage(file="background.jpg")
+    bg_image = tk.PhotoImage(file=imgPath)
+    root.bg_image = bg_image  # Store bg_image as an attribute of root
     bg_label = tk.Label(root, image=bg_image)
     bg_label.place(relx=0.5, rely=0.5, anchor="center")
-    bg_label.image = bg_image
+
 
 def stop_program(process):
     process.terminate()
@@ -57,8 +65,18 @@ canvas = tk.Canvas(root, width=1280, height=700)
 canvas.config(bg="#cfe2f3")       # skin
 canvas.pack()
 
+# Call setBackgroundIMG before mainloop
+setBackgroundIMG(root, "C:\\Users\\apoor\\Downloads\\background_1.gif")
+
 is_open = False
 process = None
+
+# canvas = tk.Canvas(root, width=1280, height=700)
+# canvas.config(bg="#cfe2f3")       # skin
+# canvas.pack()
+
+# is_open = False
+# process = None
 
 button1 = tk.Button(canvas, text="Virtual Mouse", width=15, height=2,command=runVM)
 button1.place(relx=0.3, rely=0.5, anchor="center")
