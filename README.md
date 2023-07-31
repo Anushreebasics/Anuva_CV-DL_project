@@ -20,14 +20,14 @@ This project allows you to control a virtual mouse and perform finger air writin
 3. **Launch the Application**
    - Run the `GUI.py` file to launch the application.
 
-4. ##Gesture-Controlled Virtual Mouse
+4. ## Gesture-Controlled Virtual Mouse
    - Raise only the index finger to bring the mouse into the moving state.
    - Raise all the fingers except the thumb to lower the volume.
    - Raise index finger, middle finger, and ring finger to increase the volume.
    - Pinch with the thumb and index finger for a right-click.
    - Pinch with the index finger and middle finger for a left-click.
 
-5. ##Finger Air Writing
+5. ## Finger Air Writing
    - Upon execution, the application will open a canvas along with an image window in the background.
    - The "Clear" function allows you to erase all the text or drawings on the canvas, providing a clean slate.
    - Use the "Back" function to remove the most recently added text, digit, space, or special character from the canvas, acting like a backspace.
