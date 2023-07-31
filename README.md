@@ -1,4 +1,4 @@
-->How to run the project:
+ How to run the project:
 
 -Start by forking the repository to your GitHub account.
 
