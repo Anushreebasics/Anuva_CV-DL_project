@@ -1,4 +1,4 @@
-# Wireless Mouse and Keyboard
+# Gesture-Controlled Virtual Mouse and Finger Air Writing
 
 1. Virtual Hand Mouse
 - Raise only the index finger to bring the mouse in moving state
