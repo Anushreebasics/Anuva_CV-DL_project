@@ -4,7 +4,7 @@
 
 This project allows you to control a virtual mouse and perform finger air writing using gesture recognition. It utilizes computer vision and deep learning techniques to detect hand gestures and translate them into mouse movements and text.
 
-## How to Run the Project
+### How to Run the Project
 
 1. **Fork and Clone the Repository**
    - Start by forking the repository to your GitHub account.
