@@ -1,4 +1,4 @@
-# Anuva_CV-DL_project
+# Wireless Mouse and Keyboard
 
 1. Virtual Hand Mouse
 - Raise only the index finger to bring the mouse in moving state
