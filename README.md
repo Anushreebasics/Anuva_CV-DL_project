@@ -1,11 +1,17 @@
 ->How to run the project:
 
 -Start by forking the repository to your GitHub account.
+
 -Clone the forked repository to your local machine using the following command in the terminal:
+
 -git clone https://github.com/Anushreebasics/Anuva_CV-DL_project.git
+
 -Open the project in Visual Studio Code (VS Code) or any preferred code editor.
+
 -Adjust the path variables in the code to match the location of the project on your machine.
+
 -Run the GUI.py file to launch the application.
+
 -Now you can utilize the virtual mouse and virtual air writing functionalities. For information on how to perform various operations using gestures, please refer to the instructions below.
 ![Refer Image for more clarity](image.png)
 
